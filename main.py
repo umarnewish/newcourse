@@ -23,7 +23,7 @@ def calculator():
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
-        
+        print("Nimagap bratishka")
         if operation == '+':
             result = num1 + num2
         elif operation == '-':
